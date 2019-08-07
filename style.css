@@ -430,14 +430,14 @@
   padding: 90px 0;
 }
 
-.OurBlog h3.title {
+.OurBlog h3.title, .Blogs.OurBlog h3.titlel {
   font-family: "Dancing Script", cursive;
   color: #feb518;
   font-size: 40px;
   font-weight: bold;
 }
 
-.OurBlog h3.desc {
+.OurBlog h3.desc, .Blogs.OurBlog h3.descl  {
   font-size: 24px;
   font-weight: bold;
   color: #333333;
@@ -607,6 +607,8 @@
   font-size: 13px;
 }
 
+/* style about us */
+
 .contactus {
   background: #6e6e6e;
 }
@@ -618,11 +620,213 @@
 }
 
 .contactus button {
-padding: 14px 20px;
-color: #333333;
-font-size: 14px;
-border-radius: 0;
+  padding: 14px 20px;
+  color: #333333;
+  font-size: 14px;
+  border-radius: 0;
 }
+/* end style about */
+
+/* style menulist */
+
+.menu h3.title {
+  font-family: "Dancing Script", cursive;
+  color: #feb518;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.menu h3.desc {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.menu .icon2 {
+  width: 160px;
+  height: 160px;
+  margin-top: 40px;
+}
+
+.slogan .icon {
+  width: 160px;
+  height: 160px;
+}
+
+/* end style menulist */
+/* blog */
+.Blogs.OurBlog {
+  border-top: 1px solid #f7f7f7;
+  padding: 80px 0;
+}
+
+.Blogs.OurBlog h3.desc {
+  margin-bottom: 50px;
+}
+
+.Blogs.OurBlog .item {
+  margin-top: 0px;
+}
+
+.Blogs.OurBlog .item .top {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.Blogs.OurBlog .item .top img {
+  height: auto;
+  width: 100%;
+}
+
+.Blogs.OurBlog .item a {
+  padding: 0;
+}
+
+.Blogs.OurBlog .search input.form-control {
+  position: relative;
+}
+
+.Blogs.OurBlog .search button {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 7px;
+  right: 26px;
+  color: #777777;
+}
+
+.Blogs.OurBlog .category {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Blogs.OurBlog h3.title {
+  font-size: 23px;
+  color: #333333;
+  font-family: "Oswald", sans-serif;
+}
+
+.Blogs.OurBlog .category ul.listcategory {
+  margin-left: 18px;
+  color: #777777;
+}
+
+.Blogs.OurBlog .category ul.listcategory li a {
+  font-size: 16px;
+  color: #777777;
+  font-family: "Oswald", sans-serif;
+  padding: 11px 0;
+  display: block;
+}
+
+.Blogs.OurBlog .page-item .page-link{
+  text-align: center;
+  border-radius: 50%;
+  margin: 0px 5px;
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  color: #000;
+  transition: 0.4s;
+}
+
+.Blogs.OurBlog .page-item .next span{
+  border: 1px solid #eaeaea;
+  font-size: 20px;
+  padding: 2px 25px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0px 5px;
+  font-size: 20px;
+  color: #000;
+  transition: 0.4s;
+  display: block;
+}
+
+.Blogs.OurBlog .page-item.active .page-link {
+  color: #fff;
+  border-radius: 50%;
+  background: #fdb518;
+  border: none;
+}
+
+.Blogs.OurBlog .page-item .page-link:hover {
+  background: #fdb518;
+  color: #fff;  
+}
+
+.Blogs.OurBlog .page-item .next span:hover{
+  background: #fdb518;
+  color: #fff;  
+}
+
+.Blogs.OurBlog .page-item .next:hover{
+  text-decoration: none;
+}
+
+.Blogs.OurBlog .toprated h3.title{
+  margin-bottom: 20px;
+}
+
+.Blogs.OurBlog .toprated .row{
+  margin-bottom: 20px;
+}
+
+.Blogs.OurBlog .toprated .col-sm-4{
+  padding-right: 0px; 
+}
+
+.Blogs.OurBlog .toprated .col-sm-8 .top span{
+  color: #333333;
+  font-size: 16px;
+}
+
+.Blogs.OurBlog .toprated .col-sm-8 .bottom span{
+  color: #333333;
+  font-size: 13px;
+}
+
+.Blogs.OurBlog .toprated .col-sm-8 .bottom .right span{
+  color: #999999;
+}
+/* end blog */
+
+/* style contact page */
+.produceChef.wp-form{
+  padding-top: 40px;
+}
+
+.produceChef.wp-form .info span.desc{
+  margin-bottom: 0px;
+}
+
+.produceChef.wp-form .info {
+  margin-bottom: 30px;
+}
+
+.produceChef.wp-form .form .form-control{
+  color: #999999;
+  font-size: 13px;
+  padding: 13px 6px;
+}
+
+.produceChef.wp-form .form button{
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #333333;
+  font-weight: bold;
+  width: 100%;
+  padding: 13px 0;
+  margin-top: 30px;
+}
+/* end style contact [age] */
+
+
 /* responsive */
 
 @media (max-width: 576px) {
